@@ -1,1 +1,104 @@
+<!-- === APP BAR === -->
+<nav class="bg-violet bg-gradient d-flex align-items-center fixed-top shadow  minHW">
+  <div class="container-xl">
+    <div class="row align-items-center">
+      <!-- == logo == -->
+      <div class="col">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/argProgInti/LogoArgProg.png" alt="Logo" class="logoNav">
+          <span class="mx-1 fw-semibold colorNav">#Yo Programo</span>
+        </a>
+      </div>
 
+      <!-- == Redes_sociales == -->
+      <div class="col d-flex justify-content-end">
+        <!-- == Vista movil == -->
+        <div class="d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">
+          <i class="bi bi-list btnSizeNav colorNav"></i>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header bg-dark">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-violet">
+            <ul class="nav flex-column">
+              <li class="nav-item d-flex justify-content-center">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <i class="bi bi-github mx-2 btnSizeNav colorNav"></i>
+                </a>
+              </li>
+              <li class="nav-item d-flex justify-content-center">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-linkedin mx-2 btnSizeNav colorNav"></i>
+                </a>
+              </li>
+              <li class="nav-item d-flex justify-content-center">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-door-open mx-2 btnSizeNav colorNav"></i>Login
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- == Vista Escritorio == -->
+        <div class="d-none d-md-block colorNav">
+          <i class="bi bi-github mx-2 btnSizeNav"></i>
+          <i class="bi bi-linkedin mx-2 btnSizeNav"></i>
+          <i class="bi bi-door-open mx-2 btnSizeNav"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+<!-- === BANNER === -->
+<div class="container bg-white banner-Top rounded-bottom shadow">
+  <!-- === banner === -->
+  <div class="row">
+    <img src="./assets/img/banner/bannerCover.webp" class="img-fluid px-1 rounded" alt="Mi imagen representativa">
+  </div>
+
+
+  <!-- Fila principal -->
+  <div class="row">
+    <!-- Columna principal izquierda -->
+    <div class="col-sm-12 col-md-3">
+      <!-- Fila imagen de perfil -->
+      <div class="row">
+        <!-- Caja principal de Imagen de perfil -->
+        <div class="col-sm-12 col-md-12 col-xs-12 text-center position-relative">
+          <div class="position-absolute top-100 start-50 translate-middle">
+            <img src="./assets/img/perfil/ozu.jpg" alt="Foto de perfil"
+              class="rounded-circle  border border-dark border-2 shadow-lg imgCover">
+          </div>
+        </div>
+        <!-- Caja de Nombre y apellido -->
+        <div class="col p-0">
+          <div class="d-block pt-5 mt-5 mb-3 text-center">
+            <h5>Ozuna Cristian</h5>
+            <h6>Full Stack Developer Jr</h6>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Columna principal derecha -->
+    <div class="col-sm-12 col-md-9 my-auto">
+      <div class="">
+        <p class="card-text p-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sed. Magnam quam minus voluptatibus
+          delectus
+          nesciunt nemo, laudantium repellendus reiciendis, hic voluptatum ex alias, culpa ipsum architecto natus
+          autem
+          quisquam!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

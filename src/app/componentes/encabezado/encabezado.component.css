@@ -1,0 +1,29 @@
+.banner-Top {
+  margin-top: 56px;
+}
+.minHW {
+  min-height: 56px;
+  min-width: 280px;
+}
+.imgCover {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.logoNav {
+  width: 77px;
+  height: 32px;
+  object-fit: cover;
+}
+.colorNav {
+  color: cornflowerblue
+}
+
+.btnSizeNav {
+  font-size: 2rem;
+}
+
+.bg-violet {
+  background-color: #590696;
+}
