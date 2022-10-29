@@ -9,6 +9,7 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { DestrezasComponent } from './componentes/destrezas/destrezas.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { PieComponent } from './componentes/pie/pie.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PieComponent } from './componentes/pie/pie.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
