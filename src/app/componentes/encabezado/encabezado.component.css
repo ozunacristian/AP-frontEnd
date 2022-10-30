@@ -12,12 +12,12 @@
 }
 
 .logoNav {
-  width: 77px;
+  width: 80px;
   height: 32px;
   object-fit: cover;
 }
 .colorNav {
-  color: cornflowerblue
+  color: rgb(49, 57, 73)
 }
 
 .btnSizeNav {
@@ -25,5 +25,5 @@
 }
 
 .bg-violet {
-  background-color: #590696;
+  background-color: rgb(248, 249, 250);
 }
